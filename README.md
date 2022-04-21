@@ -1,4 +1,4 @@
-<body bgcolor="#000000">
+<body background-color="#000000">
 <p align="center">
 			<div class="header">
 					<tr class="header">
