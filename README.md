@@ -1,6 +1,5 @@
 <center>
 			<div class="header">
-				<table class="header" style="border-collapse: separate; margin: 5px; height: 60px;">
 					<tr class="header">
 						<td class="header">
 						</td>
