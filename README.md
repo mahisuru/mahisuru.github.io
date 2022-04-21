@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+	<title>Background</title>
+	<body style="background-color:black;">
 <p align="center">
 			<div class="header">
 					<tr class="header">
