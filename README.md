@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<style>
-			body {
-			background-color:#000000;
-			}
-		</style>
-		<head>
-			<body>
-			</body>
-			</html>
 <p align="center">
 			<div class="header">
 					<tr class="header">
