@@ -10,4 +10,4 @@
 								 • <a class="header" href="https://twitter.com/mahisuruowo">twitter</a>
 								 • <a class="header" href="https://osu.ppy.sh/users/11547643">osu!</a>
 								 • <a class="header" href="https://www.twitch.tv/mahisuruosu">twitch</a> •
-								
+			<center>					
