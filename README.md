@@ -49,6 +49,7 @@ header {
 	z-index: 10;
 	top: 50%;
 }
+
 <p align="center">
 			<div class="header">
 					<tr class="header">
