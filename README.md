@@ -11,9 +11,6 @@
 								 • <a class="header" href="https://www.twitch.tv/mahisuruosu">twitch</a> •</p>
 							<html>
 	<head>
-		<title>
-			hi
-		</title>
 	</head>
 	<body bgcolor="black">
 		<h1>
