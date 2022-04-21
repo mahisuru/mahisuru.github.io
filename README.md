@@ -3,7 +3,6 @@
 				<table class="header" style="border-collapse: separate; margin: 5px; height: 60px;">
 					<tr class="header">
 						<td class="header">
-							<img class="rotateimg" style="display: inline; height: 72px;" src="/logo.png" />
 						</td>
 						<td class="header">
 							<p style="display: table-cell; font-size: 18pt; color: rgba(0, 0, 0, 0.0);">
