@@ -12,7 +12,7 @@
 							<html>
 	<head>
 	</head>
-	<body bgcolor="black">
+	<body bgcolor="#000000">
 		<h1>
 			hi
 			</h1>
