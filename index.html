@@ -53,43 +53,45 @@ a:active {
 <p style="font-family:courier; color:white;">most people know me for my high accuracy and leaderboard scores,</p>
 <p style="font-family:courier; color:white;">though you probably found this website because of my leaderboard scores.</p>
 <p style="font-family:courier; color:white;">Thanks for stopping by o/</p>
-  
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.collapsible {
-  background-color: #000000;
-  color: white;
+ 
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+/* button that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border: none;
   text-align: left;
+  border: none;
   outline: none;
-  font-size: 15px;
-  font-family:courier;
+  transition: 0.4s;
 }
 
-.active, .collapsible:hover {
-  background-color: #000000;
+/* background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
 }
 
-.content {
+/*accordion panel. Note: hidden by default*/
+.panel {
   padding: 0 18px;
-  max-height: 0;
+  background-color: white;
+  display: none;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #000000;
 }
-</style>
-</head>
-<body>
-<button class="collapsible">osu! settings</button>
-<div class="content">
-<p>hyperx alloy origins w/ red switches
-logitech g pro x superlight
-400dpi / 2.6x sensitivity</p>
-</div> 
-</body>
 </body>
 </html>
