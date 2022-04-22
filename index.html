@@ -59,7 +59,7 @@ a:active {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box}
-body {font-family: "Lato", sans-serif;}
+body {font-family:courier;}
 
 /* Style the tab */
 .tab {
@@ -80,6 +80,7 @@ body {font-family: "Lato", sans-serif;}
   border: none;
   outline: none;
   text-align: left;
+  font-family:courier;
   cursor: pointer;
   transition: 0.3s;
   font-size: 17px;
@@ -108,28 +109,40 @@ body {font-family: "Lato", sans-serif;}
 </head>
 <body>
 
-<h2>Vertical Tabs</h2>
-<p>Click on the buttons inside the tabbed menu:</p>
+<h2 style=font-family:courier;>Archive</h2>
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'osu! settings')" id="defaultOpen">osu! settings</button>
+  <button class="tablinks" onclick="openCity(event, 'osu! settings & peripherals')" id="defaultOpen">osu! settings & peripherals</button>
   <button class="tablinks" onclick="openCity(event, 'osu! tournaments')">osu! tournaments</button>
   <button class="tablinks" onclick="openCity(event, 'hamter')">hamter</button>
 </div>
 
-<div id="osu! settings" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
+<div id="osu! settings & peripherals" class="tabcontent">
+  <h3 style=font-family:courier; color:white;>osu! settings and peripherals</h3>
+  <p style="font-family:courier; color:white;>hyperx alloy origins w/ red switches 
+logitech g pro x superlight
+400dpi / 2.6x sensitivity
+</p>
 </div>
 
 <div id="osu! tournaments" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p> 
+  <h3 style=font-family:courier; color:white;>osu! tournaments</h3>
+  <p><h1>RDOC 2020</h1>
+#18 Qualifiers | RO16 
+
+  <h1>Corsace 2020</h1>
+DNQ
+
+  <h1>RDOC 2021</h1>
+Staffing | Commentator & Referee
+
+  <h1>CES Gaming osu! Monthly 2</h1>
+Round of 32 (ongoing)
+</p> 
 </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+<div id="hamter" class="tabcontent">
+<h3 style=font-family:courier; color:white;>coming soon.</h3>
 </div>
 
 <script>
