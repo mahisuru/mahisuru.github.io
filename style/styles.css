@@ -28,6 +28,10 @@ p {
     margin-left: 25px;
 }
 
+.album {
+    font-size: 18px;
+}
+
 .archive {
     font-size: 40px;
     text-decoration: underline;
