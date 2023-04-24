@@ -35,6 +35,13 @@ p {
     margin-bottom: 12px;
 }
 
+.who {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
 .osusettings1 {
     margin: 3px;
     margin-top: 0;
